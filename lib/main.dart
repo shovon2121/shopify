@@ -1,4 +1,4 @@
-////5
+////6
 import 'package:flutter/material.dart';
 import 'screens/products_overview_screen.dart';
 
@@ -15,6 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
+        accentColor: Colors.blueAccent,
+        fontFamily: 'Lato',
       ),
       home: ProductOverviewScreen(),
     );
